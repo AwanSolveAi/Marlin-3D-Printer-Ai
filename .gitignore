@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+*.pyc
+.env
+.env.example
+.streamlit/secrets.toml
+
+benchmarks/
+tests/
+docs/
+test.py
+
+data/raw/
+data/evaluation/
+data/evaluation_questions.json

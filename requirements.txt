@@ -1,0 +1,6 @@
+faiss-cpu>=1.15,<2
+numpy>=2.4,<3
+rank-bm25>=0.2.2,<0.3
+requests>=2.34,<3
+sentence-transformers>=6,<7
+streamlit>=1.40,<2
