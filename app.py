@@ -444,29 +444,10 @@ def render_result(item: dict[str, Any], latest: bool = False) -> None:
 
 
 
-st.markdown(
-
-    """
-
-    <div class="awansolveai-header">
-
-        <h1 style="margin-bottom:0.2rem;">AwanSolveAi — Marlin Support AI</h1>
-
-        <div class="awansolveai-subtitle">
-
-            Documentation-grounded technical support demo for Marlin 3D printer firmware.
-
-        </div>
-
-    </div>
-
-    """,
-
-    unsafe_allow_html=True,
-
+st.title("AwanSolveAi — Marlin Support AI")
+st.caption(
+    "Documentation-grounded technical support demo for Marlin 3D printer firmware."
 )
-
-
 
 st.info(
 
@@ -699,26 +680,10 @@ else:
 
 
 st.markdown("---")
+st.markdown("**AwanSolveAi Demo Candidate**")
+st.caption("Documentation-grounded technical knowledge assistant.")
+st.caption("No API keys or credentials are displayed in this interface.")
 
-st.markdown(
-
-    """
-
-    <div class="small-note">
-
-        <strong>AwanSolveAi Demo Candidate</strong><br>
-
-        Documentation-grounded technical knowledge assistant.<br>
-
-        No API keys or credentials are displayed in this interface.
-
-    </div>
-
-    """,
-
-    unsafe_allow_html=True,
-
-)
 
 
 
